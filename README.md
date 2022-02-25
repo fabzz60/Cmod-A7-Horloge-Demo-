@@ -14,3 +14,10 @@ In the green bar at the top of the Vivado window, click Open target. Select Auto
 In the green bar at the top of the Vivado window, click Program device.
 In the Program Device Wizard, enter "<archive extracted location>vivado_proj/Vivado_2021_1_TP_CmodA7_HM.runs/impl_1/design_1_wrapper.bit" into the "Bitstream file" field. Then click Program.
 The demo will now be programmed onto the Cmod A7-35T. See the Description section of this README to learn how to interact with this demo.
+  
+Next Steps
+This demo can be used as a basis for other projects, either by adding sources included in the demo's release to those projects, or by modifying the sources in the release project.
+
+Check out the Cmod A7-35T's Resource Center to find more documentation, demos, and tutorials.
+
+For technical support or questions, please post on the Digilent Forum.
