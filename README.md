@@ -1,5 +1,5 @@
 Cmod A7-35T digital clock Demo
-Description : open   ***CMOD A7 Horloge demo support.pdf***
+for description open   ***CMOD A7 Horloge demo support.pdf***
 
 This project is a Vivado demo using the Cmod A7's LEDs, pushbuttons, and USB UART bridge, written in VHDL. When programmed onto the board, the pushbuttons adjust the digital clock and USB-UART update the clock by writing hour minute second with the keyboard and the enter key to validate the time.
 
