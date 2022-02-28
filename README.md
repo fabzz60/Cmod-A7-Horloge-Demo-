@@ -1,13 +1,14 @@
 Cmod A7-35T digital clock Demo
+
 for description open   ***CMOD A7 Horloge demo support.pdf***
 
 This project is a Vivado demo using the Cmod A7's LEDs, pushbuttons, and USB UART bridge, written in VHDL. When programmed onto the board, the pushbuttons adjust the digital clock and USB-UART update the clock by writing hour minute second with the keyboard and the enter key to validate the time.
 
-To use the USB-UART bridge feature of this demo, the Cmod A7-35T must be connected to a serial terminal on the computer it is connected to over the MicroUSB cable. For more information on how to set up and use a serial terminal, such as Tera Term or PuTTY, refer to this tutorial. 
+To use the USB-UART bridge feature of this demo, the ***Cmod A7-35T*** must be connected to a serial terminal on the computer it is connected to over the MicroUSB cable. For more information on how to set up and use a serial terminal, such as Tera Term or PuTTY, refer to this tutorial. 
 Connect a terminal program with the settings 9600 baud rate, 8 bits, one stop bit, and no parity bit. 
 
 Download and extract the most recent release ZIP archive from this repository's Releases Page.
-Open the project in Vivado 2020.1 by double clicking on the included XPR file found at "<archive extracted location>/vivado_proj/Vivado_2021_1_TP_CmodA7_Horloge_numerique.xpr".
+Open the project in ***Vivado 2020.1*** by double clicking on the included XPR file found at "<archive extracted location>/vivado_proj/Vivado_2021_1_TP_CmodA7_Horloge_numerique.xpr".
 In the Flow Navigator panel on the left side of the Vivado window, click Open Hardware Manager.
 Plug the Cmod A7-35T into the computer using a MicroUSB cable.
 Open a serial terminal emulator (such as TeraTerm) and connect it to the Cmod A7-35T's serial port, using a baud rate of 9600.
