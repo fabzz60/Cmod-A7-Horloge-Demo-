@@ -1,4 +1,6 @@
 
+## 12 MHz Clock Signal master
+set_property PACKAGE_PIN L17 [get_ports {clk}]
 set_property IOSTANDARD LVCMOS33 [get_ports clk]
 set_property IOSTANDARD LVCMOS33 [get_ports rx]
 set_property IOSTANDARD LVCMOS33 [get_ports FULL]
@@ -18,9 +20,6 @@ set_property IOSTANDARD LVCMOS33 [get_ports {SEG[3]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {SEG[4]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {SEG[5]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {SEG[6]}]
-
-## 12 MHz Clock Signal master
-set_property PACKAGE_PIN L17 [get_ports {clk}]
 set_property PACKAGE_PIN M3 [get_ports {SEG[0]}]
 set_property PACKAGE_PIN L3 [get_ports {SEG[1]}]
 set_property PACKAGE_PIN A16 [get_ports {SEG[2]}]
