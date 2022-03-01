@@ -29,10 +29,14 @@ ELSIF rising_edge(clk) then
       ELSE
       count_1000Hz <= 0;
       END IF;
+      --Ã  la moitiÃ© du comptage on change la valeur  (rapport cyclique = 1/2)
+	  IF count_1000Hz <= M1/2 THEN
+      clock_1000Hz_int <= '1';
+      ELSE
+      clock_1000Hz_int <= '0';
+      end if;
 END IF;
 END PROCESS;
---à la moitié du comptage on change la valeur de clock_1Hz_int (rapport cyclique = 1/2)
-clock_1000Hz_int <= '1' WHEN count_1000Hz <= M1/2 ELSE '0';
 CLK_divide <= clock_1000Hz_int;
 
 end Behavioral;
