@@ -13,7 +13,7 @@ end diviseur_horloge_numerique;
 
 architecture Behavioral of diviseur_horloge_numerique is
 
-SIGNAL	count_1000Hz : INTEGER range 0 to 100000 := 0;
+SIGNAL	count_1000Hz : INTEGER range 0 to 12000 := 0;
 SIGNAL  clock_1000Hz_int:  STD_LOGIC :='0';
 CONSTANT M1: INTEGER := 12000; --1000Hz
 begin
