@@ -8,7 +8,7 @@ To use the USB-UART bridge feature of this demo, the ***Cmod A7-35T*** must be c
 Connect a terminal program with the settings 9600 baud rate, 8 bits, one stop bit, and no parity bit. 
 
 Download and extract the most recent release ZIP archive from this repository's Releases Page.
-Open the project in ***Vivado 2020.1*** by double clicking on the included XPR file found at "<archive extracted location>/vivado_proj/Vivado_2021_1_TP_CmodA7_Horloge_numerique.xpr".
+Open the project in ***Vivado 2020.1*** by double clicking on the included XPR file found at "<archive extracted location>/vivado_proj/Vivado_2021_1_TP_CmodA7_HM.xpr.zip".
 In the Flow Navigator panel on the left side of the Vivado window, click Open Hardware Manager.
 Plug the Cmod A7-35T into the computer using a MicroUSB cable.
 Open a serial terminal emulator (such as TeraTerm) and connect it to the Cmod A7-35T's serial port, using a baud rate of 9600.
