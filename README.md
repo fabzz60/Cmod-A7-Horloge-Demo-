@@ -10,7 +10,7 @@ Connect a terminal program with the settings 9600 baud rate, 8 bits, one stop bi
 Download and extract the most recent release ZIP archive from this repository's Releases Page.
 Open the project in ***Vivado 2020.1*** by double clicking on the included XPR file found at "<archive extracted location>/vivado_proj/Vivado_2021_1_TP_CmodA7_HM.xpr.zip".
  
-[<img alt="alt_text" width="40px" src="images/design_horloge_numerique" />]  
+[<img alt="alt_text" width="40px" src="design_horloge_numerique" />]  
   
 In the Flow Navigator panel on the left side of the Vivado window, click Open Hardware Manager.
 Plug the Cmod A7-35T into the computer using a MicroUSB cable.
