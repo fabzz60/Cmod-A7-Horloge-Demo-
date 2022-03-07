@@ -25,14 +25,14 @@ end Compteur_pour_HN;
 
 architecture Behavioral of Compteur_pour_HN is
 --déclaration des signaux et des variables
-signal count1: INTEGER range 0 to 100000 := 0;
+signal count1: INTEGER range 0 to 120000 := 0;
 SIGNAL clock_int1: STD_LOGIC :='0';
-signal count2: INTEGER range 0 to 100000 := 0;
+signal count2: INTEGER range 0 to 120000 := 0;
 SIGNAL clock_int2: STD_LOGIC :='0';
-signal count3: INTEGER range 0 to 100000000 := 0;
+signal count3: INTEGER range 0 to 12000000 := 0;
 SIGNAL clock_int3: STD_LOGIC :='0';
-CONSTANT M1: INTEGER := 12000; --1000Hz
-CONSTANT M2: INTEGER := 12000; --1000Hz
+CONSTANT M1: INTEGER := 120000; --100Hz
+CONSTANT M2: INTEGER := 120000; --100Hz
 CONSTANT M3: INTEGER := 12000000; --1Hz
 -- define the new type for the 3x8 octets RAM 
 type RAM_ARRAY is array (0 to 5) of std_logic_vector (7 downto 0);
